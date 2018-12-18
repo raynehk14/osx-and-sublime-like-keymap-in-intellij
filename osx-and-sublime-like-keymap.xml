@@ -29,9 +29,6 @@
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
-  <action id="EditorAddOrRemoveCaret">
-    <mouse-shortcut keystroke="meta button1" />
-  </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -74,10 +71,6 @@
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="Forward" />
-  <action id="GotoDeclaration">
-    <mouse-shortcut keystroke="button2" />
-    <mouse-shortcut keystroke="alt button1" />
-  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
