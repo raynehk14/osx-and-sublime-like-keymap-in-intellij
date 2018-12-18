@@ -9,6 +9,7 @@
   <action id="CheckinProject" />
   <action id="CompareTwoFiles" />
   <action id="Console.History.Browse" />
+  <action id="Debug" />
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -31,6 +32,11 @@
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -39,6 +45,9 @@
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
@@ -51,6 +60,10 @@
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
