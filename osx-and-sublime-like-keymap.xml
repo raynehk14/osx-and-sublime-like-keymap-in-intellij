@@ -89,7 +89,7 @@
   <action id="GotoRelated" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt o" />
-    <keyboard-shortcut first-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="IntroduceField">
@@ -129,13 +129,12 @@
     <keyboard-shortcut first-keystroke="meta alt f8" />
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
+  <action id="Refresh" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
-    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="ReplaceInPath" />
   <action id="Rerun">
-    <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Run">
@@ -173,8 +172,10 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Vcs.Log.Refresh" />
   <action id="ViewSource" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="hg4idea.QRefresh" />
 </keymap>
